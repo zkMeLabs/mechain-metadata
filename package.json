@@ -1,0 +1,19 @@
+{
+  "name": "mechain-metadata",
+  "version": "1.0.0",
+  "description": "Obtain metadata of an NFT through a contract",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nft",
+    "metadata"
+  ],
+  "author": "luke",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.13.1"
+  }
+}

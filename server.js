@@ -7,7 +7,6 @@ BigInt.prototype.toJSON = function () {
 };
 
 const isPositiveInteger = (str) => {
-  // 使用正则表达式匹配一个或多个数字，并且字符串长度大于0
   return /^\d+$/.test(str) && parseInt(str) > 0;
 };
 
